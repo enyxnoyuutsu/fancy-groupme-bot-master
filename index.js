@@ -10,7 +10,7 @@ var botConfig = { token:'ce80a500bd8f013405c3027b40249c3b',
                   group:'27987748',
                   name:'Roland Jarvis',
                   url:'https://rolandjarvis007.herokuapp.com' };
-var bot = require('fancy-groupme-bot-master');
+var bot = require('fancy-groupme-bot');
 var myBot = bot(botConfig);
 
 function Bot (config) {
