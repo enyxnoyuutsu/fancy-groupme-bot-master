@@ -1,1 +1,1 @@
-web: node repeatbot.js
+web: node index.js
