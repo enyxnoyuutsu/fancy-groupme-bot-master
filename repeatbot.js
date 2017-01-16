@@ -1,4 +1,4 @@
-var bot = require('repeatbot');
+var bot = require('fancy-groupme-bot-master');
 
 // local configuration read from env.
 const TOKEN = process.env['ce80a500bd8f013405c3027b40249c3b'];
