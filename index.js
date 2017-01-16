@@ -6,13 +6,11 @@ const util = require('util');
 const http = require('http');
 const formidable = require('formidable');
 
-var botConfig = { token:'ce80a500bd8f013405c3027b40249c3b',
-                  group:'27987748',
-                  name:'Roland Jarvis',
-                  url:'https://rolandjarvis007.herokuapp.com/' };
-var bot = require('fancy-groupme-bot');
-var myBot = bot(botConfig);
-
+// config { token:groupme token,
+//          group:the room to connect to,
+//          name: the bot name,
+//          url: optional callback,
+//          avatar_url: optional avatar image
 function Bot (config) {
   if (! (this instanceof Bot)) return new Bot(config);
   for (var key in config) if ( config.hasOwnProperty(key) )  this[key] = config[key];
